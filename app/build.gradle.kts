@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.telegramclone"
-    compileSdk = 33
-
+    compileSdk = 34
+    viewBinding.enable = true
     defaultConfig {
         applicationId = "com.example.telegramclone"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -36,12 +36,21 @@ android {
 }
 
 dependencies {
-
-    implementation("androidx.core:core-ktx:1.9.0")
+    implementation("com.mikepenz:materialdrawer:7.0.0")
+    implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("androidx.annotation:annotation:1.7.0")
+    implementation("com.google.android.material:material:1.10.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+
+    implementation("com.mikepenz:materialdrawer-nav:7.0.0")
+
 }
