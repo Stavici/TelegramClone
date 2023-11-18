@@ -1,9 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="ThemeTelegramCloneLight" parent="MaterialDrawerTheme.Light">
+    <style name="ThemeTelegramCloneLight" parent="MaterialDrawerTheme">
         <item name="android:fontFamily">@font/opensans</item>
 
         <item name="android:colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/material_drawer_background</item>
 
         <!-- MaterialDrawer specific values -->
         <item name="material_drawer_background">@color/material_drawer_background</item>
@@ -20,5 +21,7 @@
         <item name="material_drawer_legacy_style">false</item>
     </style>
 
-    <style name="Theme.TelegramClone" parent="ThemeTelegramCloneLight" />
+    <style name="Theme.TelegramClone" parent="ThemeTelegramCloneLight">
+        <!--TODO DARK THEME-->
+    </style>
 </resources>
