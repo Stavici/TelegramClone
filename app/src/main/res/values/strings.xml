@@ -1,6 +1,13 @@
 <resources>
+    <string name="hello_blank_fragment">1111</string>
     <string name="app_name">TelegramClone</string>
     <string name="setting_default_username">Stanislav</string>
-    <string name="setting_default_status">В сети</string>
-    <string name="string_settings_text_account">string/settings_text_account</string>
+    <string name="setting_default_status">в сети</string>
+    <string name="string_settings_text_account">Аккаунт</string>
+    <string name="settings_default_number">+7 (999) 666-33-11</string>
+    <string name="settings_label_phone_number">Нажмите, чтобы изменить номер телефона</string>
+    <string name="settings_label_login">Имя пользователя</string>
+    <string name="settings_default_login">stavici</string>
+    <string name="settings_default_bio">О себе</string>
+    <string name="settings_label_bio">Напишите немного о себе</string>
 </resources>

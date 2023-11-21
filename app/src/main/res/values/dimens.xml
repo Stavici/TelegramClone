@@ -8,5 +8,6 @@
     <!--Settings fragment-->
     <dimen name="settings_user_photo_width">55dp</dimen>
     <dimen name="settings_user_photo_height">55dp</dimen>
+    <dimen name="vertical_large_margin">16dp</dimen>
 
 </resources>
