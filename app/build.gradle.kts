@@ -52,5 +52,6 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
     implementation("com.mikepenz:materialdrawer-nav:7.0.0")
+    implementation("de.hdodenhof:circleimageview:3.1.0")
 
 }

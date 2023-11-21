@@ -16,7 +16,7 @@ import com.mikepenz.materialdrawer.model.PrimaryDrawerItem
 import com.mikepenz.materialdrawer.model.ProfileDrawerItem
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem
 
-class AppDriwer (val mainActivity: AppCompatActivity, val toolbar: androidx.appcompat.widget.Toolbar) {
+class AppDrawer (val mainActivity: AppCompatActivity, val toolbar: androidx.appcompat.widget.Toolbar) {
     private lateinit var mainDrawer: Drawer
     private lateinit var mainHeader: AccountHeader
     fun create() {
@@ -96,7 +96,6 @@ class AppDriwer (val mainActivity: AppCompatActivity, val toolbar: androidx.appc
                 }
             } ).build()
     }
-
     private fun createHeader() {
         mainHeader = AccountHeaderBuilder()
             .withActivity(mainActivity)
